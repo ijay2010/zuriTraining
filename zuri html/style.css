@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 20%;
+}
+
+.box1 h3 {
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.box1 p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 10px;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 20%;
+}
+
+.box2 h3 {
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.box2 p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 10px;
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 20%;
+}
+
+.box3 h3 {
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.box3 p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px;
+}
