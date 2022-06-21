@@ -12,7 +12,7 @@
     
     main {
         display: grid;
-        grid-template-areas: 'a a b' 'c d e';
+        grid-template-areas: 'a a b' 'c d d' 'c e e';
         gap: 10px;
         width: 50%;
         margin: auto;
@@ -39,15 +39,12 @@
         grid-area: c;
     }
     
-    .col {
-        background-color: #c0ffff;
-        column-gap: 10px;
-    }
-    
     .itemD {
+        background-color: #c0ffff;
         grid-area: d;
     }
     
-    .temE {
+    .itemE {
+        background-color: #c0ffff;
         grid-area: e;
     }
