@@ -12,4 +12,4 @@ if (operator == '+') {
 } else {
     result = numBer1 / numBer2;
 }
-console.log(`${numBer1} ${operator} ${numBer2} = ${result}`);
+window.alert("Result is" + result);
